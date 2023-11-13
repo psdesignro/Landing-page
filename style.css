@@ -1,0 +1,199 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+     padding: 16px 0px;
+     display: flex;
+     flex-direction: column;
+     gap: 5rem;
+     margin:auto; 
+   
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+}
+
+/*typography*/
+
+p{
+    line-height: 150%;
+    color:#555;
+    font-size: 1,123rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+}
+
+h2{
+    font-size:2rem ;
+}
+
+
+/*buttons*/
+
+button{
+    padding: 12px 32px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #333;
+    color:#f2f2f2;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: #555;
+    color:#f2f2f2;
+    
+}
+
+
+
+/* navbar*/
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+.logo{
+    padding: 8px 32px;
+    border: 2px solid #aaa;
+    border-radius: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+
+.menu ul li a{
+    color: #333;
+    font-size: 1,25rem;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    color:#777;
+    
+}
+
+.logo p{
+    margin: 0;
+}
+
+/*hero section*/
+
+.hero{
+    display: flex;
+    flex:1;
+    align-items: center;
+    gap: 3rem;
+}
+
+.featured img{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+/*second section*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+}
+
+.cards{
+    display: flex;
+    flex:1;
+     gap:24px;
+}
+
+
+/*third section*/
+
+.quote{
+    background-color: #eee;
+    
+}
+
+.italic{
+   padding: 3rem;
+   width:80%;
+   margin: auto;
+}
+
+.italic p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.italic p.author {
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+    font-size: 18px;
+    
+}
+
+/*fourth section*/
+
+.cta{
+       background-color: rgb(155, 216, 236);
+
+    border-radius: 12px;
+    
+  
+}
+
+.call{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 3rem;
+    align-items: center;
+    margin:auto;
+}
+
+
+button.secondary{
+    background-color: transparent;
+    border: 2px solid;
+    color:#333;
+
+}
+
+button:hover.secondary{
+    background-color: #eee;
+    border: 2px solid;
+    color:#333;
+
+}
+
+.footer-button{
+    display: flex;
+    justify-content: flex-end;
+}
